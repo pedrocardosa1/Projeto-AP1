@@ -1,0 +1,119 @@
+/* Menu */
+    body{
+        width: 100%; 
+        margin: 0 auto;
+
+        font-family: sans-serif;
+
+    }
+        
+        #logo{
+            
+            margin:auto;
+            padding: 15px 15px;
+            background-color:  rgb(72, 105, 177);
+            
+        }
+
+        #logo1{
+            color: white;
+            text-decoration: none
+        
+        }
+        #menu ul{
+            margin: 0;
+            background-color: rgb(83, 125, 216);
+            list-style: none;
+
+        }
+
+        #menu ul li{
+            display: inline;
+
+        }
+
+        #menu ul li a{
+            padding: 10px 10px;
+            display: inline-block;
+
+            color: white;
+            text-decoration: none;
+            
+        }
+            
+        #menu ul li a:hover{
+            color: rgb(8, 0, 82);
+        }
+            
+        header{
+            min-height: 100px;
+            position: top center;
+            color:  rgb(83, 125, 216);
+    }
+
+/* Menu */
+
+/* h2 */
+
+h2{
+    color: white;
+    background-color: cornflowerblue;
+    max-width: fit-content;
+    border-style: outset;
+    border-color:  rgb(74, 108, 139);
+}
+
+/* h2 */
+
+/* hr */
+
+hr{
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    border-bottom: 1px solid #0034a0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  
+}
+
+/* hr */
+
+/* Imagens lado a lado */
+        .coluna{
+            float: left;
+            width: 33.33%;
+          }
+          .row::after {
+            content: "";
+            clear: both;
+            display: table;
+          }        
+
+        #IphoneImage{
+            width: 100%;
+        }
+
+        #GalaxyS10Image{  
+          width:90%; 
+          height: 90%; 
+          padding-top: 25%; 
+          padding-left: 10%;
+        }
+
+        #MotoG8Image{
+            width:110%; 
+            height: 110%; 
+            padding-top: 15%;
+        }
+/* Imagens lado a lado */
+
+/* Footer */
+    #address{
+    min-height: 100px;
+    position: bottom center;
+    color:  white;
+    background-color: rgb(83, 125, 216);
+    }
+
+/* Footer */

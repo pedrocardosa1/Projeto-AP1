@@ -1,0 +1,170 @@
+       body{
+            width: 100%; 
+            margin: auto;
+
+            font-family: sans-serif;
+
+        } 
+
+/* MENU */
+        
+        #logo{
+            
+            margin:auto;
+            padding: 15px 15px;
+            background-color:  rgb(72, 105, 177);
+            
+        }
+
+        #logo1{
+            color: white;
+            text-decoration: none
+        
+        }
+        #menu ul{
+            margin: 0;
+            background-color: rgb(83, 125, 216);
+            list-style: none;
+
+        }
+
+        #menu ul li{
+            display: inline;
+
+        }
+
+        #menu ul li a{
+            padding: 10px 10px;
+            display: inline-block;
+
+            color: white;
+            text-decoration: none;
+        
+        }
+
+        #menu ul li a:hover{
+            color: rgb(8, 0, 82);
+        }
+        header{
+            min-height: 100px;
+            position: top center;
+            color:  rgb(83, 125, 216);
+        }
+
+/* MENU */
+
+/* h2 */
+
+h2{
+    color: white;
+    background-color: cornflowerblue;
+    max-width: fit-content;
+    border-style: outset;
+    border-color:  rgb(74, 108, 139);
+}
+
+/* h2 */
+
+/* hr */
+
+hr{
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    border-bottom: 1px solid #0034a0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  
+}
+
+/* hr */
+
+
+/* Estrutura Imagens com descrição */
+
+div.containerimg{
+    display: inline-block;
+    box-shadow: 0 4px 8px 9 rgba(0, 0, 0, 0.9);
+    max-width: max-content;
+    margin: auto;
+   
+}
+
+#descricao{
+    text-align: left;
+    width: 150%;
+    height: 40%;
+    font-size: 22px;
+}
+.containerimg button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: cornflowerblue;
+   
+    cursor: pointer;
+    width: 150px;
+    font-size: 18px;
+}
+
+.containerimg button:hover{
+    opacity: 0.7;
+}
+
+/* Estrutura Imagens com descrição */
+
+/* Imagens */
+
+#CapaIphoneImg{
+    width: 30%;
+    height: 30%;
+    float: left;
+}
+
+#AirPodsimg{
+    width: 17%;
+    height: 15%;
+    float: left;
+}
+
+#CaboUSBimg{
+    width: 17%;
+    height: 17%;
+    float: left;
+}
+
+#CarregadorSamsungimg{
+    width: 19%;
+    height: 20%;
+    float: left;
+}
+
+#CarregadorSemfioimg{
+    width: 19%;
+    height: 15%;
+    float: left;
+}
+
+#FoneMotorolaImg{
+    width: 24%;
+    height: 15%;
+    float: left;
+}
+
+#SmartWatchImg{
+    width: 19%;
+    height: 15%;
+    float: left;
+}
+
+
+/* Footer */
+    #address{
+        min-height: 100px;
+        position: bottom center;
+        color:  white;
+        background-color: rgb(83, 125, 216);
+        }
+    
+/* Footer */
